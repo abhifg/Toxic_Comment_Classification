@@ -1,0 +1,10 @@
+glove/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+toxic_comment_classifier/
+.env
