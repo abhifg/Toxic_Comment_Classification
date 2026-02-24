@@ -1,4 +1,13 @@
 glove/
+Data/
+processed/
+models/
+glove/
+*.npy
+*.pkl
+*.keras
+*.h5
+*.csv
 
 # Python
 __pycache__/
