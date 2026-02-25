@@ -29,21 +29,22 @@ https://toxiccommentclassification-lreyqdtwdtmuuzvqhbh8gl.streamlit.app/
 
 ## Project Structure
 
+```text
 Toxic_Comment_Classification/
 ├─ app.py
 ├─ Notebook/
-│ ├─ model_training.ipynb
-│ └─ preprocessing.ipynb
+│  ├─ model_training.ipynb
+│  └─ preprocessing.ipynb
 ├─ Data/
-│ ├─ train.csv
+│  ├─ train.csv
 ├─ models/
-│ ├─ bilstm.keras
-│ └─ thresholds.json
+│  ├─ bilstm.keras
+│  └─ thresholds.json
 ├─ processed/
-│ └─ tokenizer.pkl
-│ └─ embedding_matrix.npy
-│ └─ X.npy
-│ └─ y.npy
+│  ├─ tokenizer.pkl
+│  ├─ embedding_matrix.npy
+│  ├─ X.npy
+│  └─ y.npy
 ├─ requirements.txt
 └─ README.md
 
