@@ -47,7 +47,7 @@ Toxic_Comment_Classification/
 │  └─ y.npy
 ├─ requirements.txt
 └─ README.md
-
+```
 ---
 
 ## Installation (Local)
