@@ -80,6 +80,24 @@ streamlit run app.py
 
 ---
 
+## Usage
+
+1. Open the app in your browser.
+
+2. Enter a comment in the text area.
+
+3. Click Analyze.
+
+4. Results:
+
+✅ Comment appears safe
+
+⚠️ Toxic content detected
+
+Detailed results show probability for each label and whether the model predicts it as toxic.
+
+---
+
 ## Project Details
 
 **Architecture**: Bidirectional LSTM (BILSTM)
@@ -100,3 +118,8 @@ Stopwords removal using NLTK
 
 **Thresholds**: Saved as thresholds.json for each label
 
+---
+
+**License**
+
+MIT License – free to use, modify, and distribute.
