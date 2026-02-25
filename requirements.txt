@@ -7,4 +7,5 @@ nltk
 streamlit
 seaborn
 tf-keras
+keras
 tensorflow-metal
