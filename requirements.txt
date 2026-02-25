@@ -1,4 +1,4 @@
-tensorflow
+tensorflow==2.20
 pandas
 numpy
 scikit-learn
@@ -7,5 +7,5 @@ nltk
 streamlit
 seaborn
 tf-keras
-keras
-tensorflow-metal
+keras==3.12
+
