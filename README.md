@@ -120,6 +120,6 @@ Stopwords removal using NLTK
 
 ---
 
-**License**
+## License
 
 MIT License – free to use, modify, and distribute.
