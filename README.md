@@ -9,6 +9,13 @@ https://toxiccommentclassification-lreyqdtwdtmuuzvqhbh8gl.streamlit.app/
 
 ---
 
+## Dataset
+[Jigsaw Toxic Comment Classification Challenge](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge)
+- 159,571 Wikipedia talk page comments
+- 6 toxicity labels
+  
+---
+
 ## Features
 
 - Detects **six toxicity types**:
@@ -117,6 +124,25 @@ Stopwords removal using NLTK
 **Tokenizer**: Saved as tokenizer.pkl
 
 **Thresholds**: Saved as thresholds.json for each label
+
+---
+
+## Model Performance
+| Metric | Score |
+|--------|-------|
+| Validation AUC | 0.9837 |
+| Validation Accuracy | 99.27% |
+| Best Epoch | 4 |
+
+### Per Label F1 Score (with threshold tuning)
+| Label | F1 Score |
+|-------|----------|
+| Toxic | 0.77 |
+| Severe Toxic | 0.48 |
+| Obscene | 0.79 |
+| Threat | 0.41 |
+| Insult | 0.68 |
+| Identity Hate | 0.56 |
 
 ---
 
